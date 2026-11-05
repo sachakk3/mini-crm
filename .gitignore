@@ -1,0 +1,16 @@
+# Секреты — не коммитим. В репозитории только .env.example без реальных ключей.
+.env
+.env.local
+.env.*.local
+
+# Зависимости и сборка
+node_modules
+dist
+
+# Локальные файлы Supabase CLI
+supabase/.branches
+supabase/.temp
+
+# Прочее
+.DS_Store
+*.log
